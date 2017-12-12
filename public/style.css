@@ -1,0 +1,18 @@
+#content{
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px #dddddd;
+}
+#content > h1{
+  padding-top: 10px;
+}
+#content > h1, #metadata-form{
+  text-align: center;
+  font-family: sans-serif;
+}
+#metadata-form > input[type=file]{
+  display: inline-block;
+}
